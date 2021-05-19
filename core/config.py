@@ -1,7 +1,7 @@
 #set var values
 
 
-from easydict import Easydict as edict
+from easydict import EasyDict as edict
 
 __C				= edict()
 
@@ -26,7 +26,7 @@ __C.TRAIN.INPUT_SIZE		= [416, 608]
 __C.TRAIN_DATA_AUG		= True
 #learning rate
 __C.TRAIN.LR_INIT		= 1e-3
-__C.TRAIN_LR.END		= 1e-6
+__C.TRAIN.LR_END		= 1e-6
 #warm up?????????
 __C.TRAIN.WARMUP_EPOCHS		= 2
 __C.TRAIN.EPOCHS		= 30
